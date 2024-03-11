@@ -6,7 +6,11 @@ kubectl create deployment hello-server --image=gcr.io/google-samples/hello-app:1
 kubectl expose deployment hello-server --type=LoadBalancer --port 8080
 kubectl get service
 
+------------------
+wait for 4-5 minute
 
+After that check all task running or not and for task 5 go back to task 1 and copy initial two commands and execute individually in terminal.
+after come to task 5 and run that command in terminal and wait for 4-5 minute then check about tasks.
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
 gcloud container clusters delete lab-cluster
